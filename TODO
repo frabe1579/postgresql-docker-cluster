@@ -1,0 +1,15 @@
+#1. Scegliere i server
+- 2x advance 1 (64gb ram)
+- creare la vlan su ovh e associarla ai server
+- installare Proxmox
+- acquistare 2 IP FailOver (non classi di ip) [172.16.x.x/24]
+- 3 schede di rete (creare il bridge con lo stesso nome sulle due macchine)
+  * predefinita
+  * ip failover con mac specifico (guardare mail ovh, solo per il reverse proxy)
+  * ip per accedere alla vlan di ovh (rete interna)
+- verificare zfs
+- usare i dischi per intero
+- verificare su docker il file hosts per il failover di tomcat
+
+
+

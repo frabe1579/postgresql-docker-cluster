@@ -1,0 +1,7 @@
+Installare i server bare-metal (con la vlan)
+Creare le macchine virtuali con postgres master e replica (in docker)
+Replicare l'infrastruttura backup sulle nuove macchine (pg_back, wasabi)
+Streaming backup (barman)
+Creare le macchine virtuali tomcat e verificare collegamento con postgres
+Creare le macchine virtuali di management con pgAdmin
+Monitoring (zabbix) possbilità di una 3# macchina (vps) per monitorare lo stato dei server

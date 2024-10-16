@@ -8,6 +8,7 @@
   * ip failover con mac specifico (guardare mail ovh, solo per il reverse proxy)
   * ip per accedere alla vlan di ovh (rete interna)
 - verificare zfs
+  * bisogna utilizzarlo per poter usare la funzione di replica delle vm
 - usare i dischi per intero
 - verificare su docker il file hosts per il failover di tomcat
 
